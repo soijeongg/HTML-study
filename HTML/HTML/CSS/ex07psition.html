@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /*자식인 디브태그만 위드 하이트 주기 */
+        div>div{
+            width: 100px;
+            height:100px;
+        }
+       
+        #static{
+            background-color:lightcoral;
+            top:50px;
+        }
+        #relative{
+            background-color:lightblue;
+            position: relative;
+            top: 50px;
+            left:30px;
+        }
+        #parents{
+            position: relative;
+        }
+        #absolute{
+            background-color:lightcyan;
+            position:absolute;
+            top:0px;
+            left:0px;
+        }
+        #fixed{
+            background-color:lightgray;
+            position: fixed;
+            bottom:0px;
+            right:0px;
+        }
+
+
+    </style>
+</head>
+<body>
+    body태그 안
+    <div id = "parents">
+        부모 요소 안
+        <div id="static"></div>
+        <div id="relative"></div>
+        <div id="absolute"></div>
+        <div id="fixed">
+            <a href ="#static">top!</a>
+        </div> 
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+        <div></div>
+
+
+
+
+
+
+
+
+    </div>
+</body>
+</html>

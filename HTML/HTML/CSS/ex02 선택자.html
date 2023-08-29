@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* 선택자의 종류 */
+        /* 1. 전체선택자 * */
+        *{
+            color : lightblue;
+        
+        }
+
+         /* 태그 선택자  태그이름만 선택*/
+         li{
+            color :blue;
+         }
+
+         /* 선택자들을 구분해서 지정을 해주고 싶어!*/
+        /* => z클래스 아이디*/
+        /*     클래스는 중복이 가능하고 재사용성이 뛰어남
+             반면 아이디는 중복이 불가능하고 한 문서당 1번만 그 아이디 사용 */
+        /*클래스 선택자는 .클래스 이름*/
+        .dinner{
+            color: lightcoral;
+
+        }
+        /*  아이디 선택자는 #아이디 이름 */
+        #pic{
+            background-color: yellow;
+        }
+
+    </style>
+
+</head>
+<body>
+    <h1>CSS</h1>
+    <p>웹페이지를 꾸며주는 스타일 시트 언어</p>
+    <ul>
+        <li>CSS 기본구조</li>
+        <li>CSS 선택자</li>
+        <li>CSS 스타일</li>
+    </ul>
+    
+    <h1 class ="dinner">오늘 뭐먹지?</h1>
+    <ul class ="dinner">
+        <li class ="dinner" id =pic>페투치네면으로 크림 파스타 </li>
+        <li class ="dinner">서브웨이 로스트치킨 아보카도 추가  </li>
+        <li class ="dinner">샐러드</li>
+    </ul>
+</body>
+</html>
